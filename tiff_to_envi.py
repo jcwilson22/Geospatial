@@ -32,8 +32,8 @@ def convert_geotiff_to_envi(input_folder, output_folder):
 
 
 #set the input and output folders
-input_folder = "/content/drive/MyDrive/Townsend_Lab/DEM/GeoTIFF"
-output_folder = "/content/drive/MyDrive/Townsend_Lab/DEM/ENVI"
+input_folder = "/content/drive/MyDrive/DEM/GeoTIFF"
+output_folder = "/content/drive/MyDrive/DEM/ENVI"
 
 """Now use your function to convert GeoTiffs to ENVI header files."""
 
