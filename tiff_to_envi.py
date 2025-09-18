@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """TIFF_to_ENVI.ipynb
-Code to take DEMs generated in GEE (geotiff) to ENVI.hdr format
+Code to take DEMs generated in GEE (geotiff) to ENVI.hdr format in Google Colab with data located in Google Drive
 """
 
 import os
