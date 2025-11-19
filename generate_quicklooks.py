@@ -1,3 +1,5 @@
+#Generate three-band quicklook images from the Python console in QGIS
+
 import os
 import processing
 from qgis.core import QgsProject, QgsRasterLayer
@@ -35,5 +37,6 @@ for layer in QgsProject.instance().mapLayers().values():
         }
 
         result = processing.run("gdal:translate", params)
+
 
         print(f"Saved RGB image to: {output_path}")
