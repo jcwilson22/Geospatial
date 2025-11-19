@@ -7,7 +7,7 @@ from qgis.core import QgsProject, QgsRasterLayer
 # Set output folder path 
 output_folder = r"/your/output/folder"  # <-- Paste file path here
 
-#Define three bands to be used in quicklooks
+#Define three bands to be used in quicklooks (RGB, false color composite, etc). 
 RED_BAND = 78
 GREEN_BAND = 46
 BLUE_BAND = 15
@@ -40,3 +40,4 @@ for layer in QgsProject.instance().mapLayers().values():
 
 
         print(f"Saved RGB image to: {output_path}")
+
